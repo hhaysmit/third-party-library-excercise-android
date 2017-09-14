@@ -2,7 +2,7 @@ package io.intrepid.thirdpartylibraryexcercise;
 
 class MainPresenter implements MainContract.Presenter, GetRandomCatUrlTask.Callback {
 
-    private static final String CAT_URL = "http://www.random.cat/meow";
+    private static final String CAT_URL = "http://random.cat/meow";
 
     private MainContract.View view;
 
